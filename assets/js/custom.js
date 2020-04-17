@@ -9,7 +9,7 @@ var swiper = new Swiper('.swiper-container', {
     slidesPerView: 2,
     spaceBetween: 30,
     autoplay: {
-        delay: 3000,
+        delay: 2000,
     },
     centeredSlides: true,
     pagination: {
@@ -21,7 +21,7 @@ var swiper = new Swiper('.swiper-container', {
             slidesPerView: 1,
         },
         768: {
-            slidesPerView: 2,
+            slidesPerView: 1,
         },
         1024: {
             slidesPerView: 3,
@@ -31,8 +31,6 @@ var swiper = new Swiper('.swiper-container', {
 
 
 $(window).scroll(function(e) {
-    console.log($('#home')[0].offsetHeight);
-    console.log(e.currentTarget.scrollY);
     var tinggiHome = $('#home')[0].offsetHeight;
     var tinggiScroll = e.currentTarget.scrollY;
     var btnToTop = $('.to-top');
