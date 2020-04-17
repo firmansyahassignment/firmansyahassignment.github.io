@@ -91,4 +91,8 @@ body::-webkit-scrollbar{
     #short-story h1{
         font-size: 50px;
     }
+
+    .responsive-section{
+        height: auto;
+    }
 }
