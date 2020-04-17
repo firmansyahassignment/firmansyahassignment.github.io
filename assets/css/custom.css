@@ -96,6 +96,10 @@ body::-webkit-scrollbar{
         font-size: 20px;
     } 
 
+    .title-name{
+        font-size: 35px;
+    }
+
     .responsive-section{
         min-height: auto !important;
     }
