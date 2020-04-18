@@ -1,6 +1,7 @@
 wow = new WOW({
     animateClass: 'animated',
-    boxClass: 'wow'
+    boxClass: 'wow',
+    mobile: false
 });
 
 wow.init();
